@@ -1,0 +1,255 @@
+body{
+    background-size: cover;
+    box-sizing: border-box;
+    background-size: cover;
+    font-family: 'Roboto';
+    background-color: #f4fff9;
+   
+}
+
+.NavigationBar {
+    position: fixed;
+    top: 15px; /* Adjust top position as needed */
+    right: 210px; /* Adjust right position as needed */
+  }
+  
+  .NavigationBar a {
+    color: black; /* Default color for all links */
+    font-weight: 500;
+    margin-right: 20px; /* Adjust spacing between links */
+    width: 43px; /* Set width */
+    height: 19px; /* Set height */
+    
+    line-height: 19px; /* Center text vertically */
+    text-align: center; /* Center text horizontally */
+  }
+  
+  .NavigationBar a.active {
+    color:#4BFF50; /* Color for active link (Home) */
+  }
+
+  .NavigationBar .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.NavigationBar .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.NavigationBar .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.NavigationBar .dropdown:hover .dropdown-content {
+  display: block;
+}
+  .green{
+    color:  #4BFF50 ;
+  }
+
+  /* Dropdown button */
+.dropdown .drop{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+
+  h1{
+    size: 36px;
+    line-height: 50px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 200px;
+  }
+
+  p{
+    text-align: left;
+    size: 16px;
+    line-height: 50px;
+    font-weight: 500;
+    margin-left: 200px;
+  }
+  .button-container{
+   
+   display: flex;
+   
+   margin-left: 200px;
+   
+  }
+  .button1{
+    border-radius:15px;
+    Border:3px;
+    Padding: 14px, 18px, 14px, 18px;
+    margin: 0 10px;
+  }
+
+  .explore{
+    color: black;
+    background-color: #4BFF50;
+    border: 3px solid transparent;
+    font-family: roboto;
+    font-weight: 500;
+    border-radius: 15px;
+    Padding:14px, 18px, 100px, 18px;
+    width: 160px; /* Fixed width */
+    height: 47px; /* Height according to content */
+    font-size: 18px; /* Adjust font size */
+    top: 333px; /* Distance from the top */
+    left: 372px
+  }
+
+  .ourlatest{
+    color: black;
+    background-color: white;
+    border: 3px solid #9747FF;
+    font-family: roboto;
+    font-weight: 500;
+    border-radius: 15px;
+    Padding:14px, 18px, 14px, 18px;
+    width: 160px; /* Fixed width */
+    height: 47px; /* Height according to content */
+    font-size: 18px; /* Adjust font size */
+   
+    top: 333px; /* Distance from the top */
+    left: 372px
+  }
+
+  .contactus {
+    position: absolute;
+    top: 15px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    color: black;
+    background-color: rgba(75, 255, 80, 1);
+    width: 115px;
+    height: 47px;
+    border-radius: 15px;
+    padding: 14px 18px; /* Adjust padding as needed */
+    font-family: roboto;
+    font-weight: 500;
+  }
+  .BOX{
+    
+    display: flex;
+    
+    margin-left: 200px;
+  }
+  .BOX  input[type="email"]{
+    border-radius:  8px;
+    background-color: #fafafa;
+    padding: 10px;
+    Color: black;
+    border: 3px solid white;
+    left: 100px;
+    
+  }
+
+  .button2{
+border-radius:  10px; 
+border:3px ;
+padding:13px, 23px, 13px, 23px ;
+
+  }
+.subscribe{
+  color: white;
+  background-color: #602ba5;
+  font-family:roboto ;
+  font-weight: 600;
+  width: 100px; /* Fixed width */
+  height: 40px; /* Height according to content */
+  font-size: 12px; /* Adjust font size */
+  border-radius:  10px; 
+  top: 333px; /* Distance from the top */
+  left: 372px;
+  
+}
+  .Ratingcontainer{
+    background-color: rgba(214, 255, 224, 0.66);
+    width: 806px;
+    height: 98px;
+    justify-content: space-between;
+    border: 1px solid;
+    border-color: rgba(214, 255, 224, 0.01);
+    padding: 50px, 100px, 8px, 17px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+  .rating-item {
+    flex: 1; 
+    text-align: center;
+}
+
+.text{
+font-weight: 400;
+font-size: 16px;
+color: black;
+padding-bottom: 10px;
+font-family: roboto;
+}
+
+.number{
+font-size: 32px;
+font-weight: 600;
+color: #4BFF50;
+padding-bottom: 10px;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23.4px;
+  text-align: center;
+}
+
+.top-right-image {
+  position: absolute;
+  top: 95px;
+  right: 150px;
+  width: 264px; /* Adjust size as needed */
+  height: 396; /* Maintain aspect ratio */
+  z-index: 9999; /* Ensure it's on top */
+  
+  
+}
+
+.logo{
+  display: flex;
+ align-items: center;
+
+}
+
+.Top-left{
+  width: 40px;
+  height: 42px;
+
+}
+#Logo{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.verifycard {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  width: 159px; /* Adjust size as needed */
+  height: 50; /* Maintain aspect ratio */
+  z-index: 9999; /* Ensure it's on top */
+  border-radius: 14px;
+}
